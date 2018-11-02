@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uGk-GN-LsR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uGk-GN-LsR">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -34,10 +34,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_2680.png" translatesAutoresizingMaskIntoConstraints="NO" id="bmq-Ge-Bba">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="-448" width="375" height="1563"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFU-70-d0v">
-                                <rect key="frame" x="0.0" y="485" width="375" height="84"/>
+                                <rect key="frame" x="0.0" y="479.5" width="375" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Feel free throw Your fingers"/>
                                 <connections>
@@ -46,32 +46,29 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pa8-nQ-ovY" customClass="GADBannerView">
-                                <rect key="frame" x="0.0" y="577" width="375" height="90"/>
+                                <rect key="frame" x="0.0" y="600.5" width="375" height="66.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="1pn-fF-MiW"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="pa8-nQ-ovY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0hR-yq-cII"/>
-                            <constraint firstItem="bmq-Ge-Bba" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Dgx-hQ-baU"/>
                             <constraint firstItem="IFU-70-d0v" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FRe-LP-gEG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IFU-70-d0v" secondAttribute="bottom" constant="98" id="Frj-TW-Xw9"/>
                             <constraint firstItem="bmq-Ge-Bba" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LV9-6o-qyy"/>
                             <constraint firstItem="bmq-Ge-Bba" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NhJ-Cf-DpF"/>
-                            <constraint firstItem="IFU-70-d0v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="421" id="NzI-3Y-SDk"/>
                             <constraint firstItem="pa8-nQ-ovY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Wjg-Zu-XIK"/>
+                            <constraint firstItem="pa8-nQ-ovY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.9" id="Xhb-vN-vqj"/>
+                            <constraint firstItem="bmq-Ge-Bba" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="moO-9V-Qah"/>
                             <constraint firstItem="pa8-nQ-ovY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tDW-8f-hPS"/>
+                            <constraint firstItem="IFU-70-d0v" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="1.5" id="uih-WM-jYf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IFU-70-d0v" secondAttribute="trailing" id="wvv-c9-mKT"/>
-                            <constraint firstItem="bmq-Ge-Bba" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zhA-Qq-Ua9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="twt-XU-e7M"/>
                     <connections>
                         <outlet property="bannerView" destination="pa8-nQ-ovY" id="CkI-df-3dq"/>
+                        <outlet property="imageView" destination="bmq-Ge-Bba" id="Ach-4F-rov"/>
                         <outlet property="indexView" destination="bmq-Ge-Bba" id="vWI-Mf-RXO"/>
                     </connections>
                 </viewController>
