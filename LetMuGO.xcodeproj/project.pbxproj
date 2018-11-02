@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4423454B2189A083006308E5 /* Pods_LetMuGO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4423454A2189A083006308E5 /* Pods_LetMuGO.framework */; };
+		4437572D2186B4FF001EABCE /* IMG_2680.png in Resources */ = {isa = PBXBuildFile; fileRef = 4437572F2186B4FF001EABCE /* IMG_2680.png */; };
+		4437573F2186BC6C001EABCE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4437573E2186BC6C001EABCE /* Default-568h@2x.png */; };
+		44634B4F2180B43400046389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44634B4E2180B43400046389 /* AppDelegate.swift */; };
+		44634B512180B43400046389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44634B502180B43400046389 /* ViewController.swift */; };
+		44634B542180B43400046389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44634B522180B43400046389 /* Main.storyboard */; };
+		44634B562180B43600046389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44634B552180B43600046389 /* Assets.xcassets */; };
+		44634B592180B43600046389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44634B572180B43600046389 /* LaunchScreen.storyboard */; };
+		44634B772180B52700046389 /* pianoF.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44634B702180B52700046389 /* pianoF.wav */; };
+		44634B782180B52700046389 /* pianoE.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44634B712180B52700046389 /* pianoE.wav */; };
+		44634B792180B52700046389 /* pianoB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44634B722180B52700046389 /* pianoB.wav */; };
+		44634B7A2180B52700046389 /* pianoC2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44634B732180B52700046389 /* pianoC2.wav */; };
+		44634B7B2180B52700046389 /* pianoA.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44634B742180B52700046389 /* pianoA.wav */; };
+		44634B7C2180B52700046389 /* pianoD.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44634B752180B52700046389 /* pianoD.wav */; };
+		44634B7D2180B52700046389 /* pianoG.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44634B762180B52700046389 /* pianoG.wav */; };
+		44634B7F2180B54600046389 /* pianoC.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44634B7E2180B54600046389 /* pianoC.wav */; };
+		44634B832180B61900046389 /* Mozart1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44634B822180B61900046389 /* Mozart1.wav */; };
+		44634B852180B62900046389 /* guitar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 44634B842180B62900046389 /* guitar.wav */; };
+		44634B8B2180CF9600046389 /* toneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44634B8A2180CF9600046389 /* toneViewController.swift */; };
+		447A199021883CA700A452A1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446E0453218475F10061948A /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4423454A2189A083006308E5 /* Pods_LetMuGO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_LetMuGO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4437572E2186B4FF001EABCE /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/IMG_2680.png; sourceTree = "<group>"; };
+		4437573E2186BC6C001EABCE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4462D9FB2181FB0000ADAD76 /* LetMuGO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LetMuGO.entitlements; sourceTree = "<group>"; };
+		44634B4B2180B43400046389 /* LetMuGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetMuGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44634B4E2180B43400046389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44634B502180B43400046389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44634B532180B43400046389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44634B552180B43600046389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44634B582180B43600046389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44634B702180B52700046389 /* pianoF.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pianoF.wav; sourceTree = "<group>"; };
+		44634B712180B52700046389 /* pianoE.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pianoE.wav; sourceTree = "<group>"; };
+		44634B722180B52700046389 /* pianoB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pianoB.wav; sourceTree = "<group>"; };
+		44634B732180B52700046389 /* pianoC2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pianoC2.wav; sourceTree = "<group>"; };
+		44634B742180B52700046389 /* pianoA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pianoA.wav; sourceTree = "<group>"; };
+		44634B752180B52700046389 /* pianoD.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pianoD.wav; sourceTree = "<group>"; };
+		44634B762180B52700046389 /* pianoG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pianoG.wav; sourceTree = "<group>"; };
+		44634B7E2180B54600046389 /* pianoC.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pianoC.wav; sourceTree = "<group>"; };
+		44634B822180B61900046389 /* Mozart1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Mozart1.wav; sourceTree = "<group>"; };
+		44634B842180B62900046389 /* guitar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitar.wav; sourceTree = "<group>"; };
+		44634B8A2180CF9600046389 /* toneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toneViewController.swift; sourceTree = "<group>"; };
+		446E0453218475F10061948A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		44A3C7112186C9C3000239E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44A3C7132186CA1C000239E7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		44A3C7172186CB2C000239E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		44A3C7182186CB30000239E7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		79C7B2129C1DB64176FD3DFE /* Pods-LetMuGO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetMuGO.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetMuGO/Pods-LetMuGO.release.xcconfig"; sourceTree = "<group>"; };
+		BE7680BE4A9E3EDFF2DB1EEF /* Pods-LetMuGO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetMuGO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetMuGO/Pods-LetMuGO.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44634B482180B43400046389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4423454B2189A083006308E5 /* Pods_LetMuGO.framework in Frameworks */,
+				447A199021883CA700A452A1 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44634B422180B43400046389 = {
+			isa = PBXGroup;
+			children = (
+				4437573E2186BC6C001EABCE /* Default-568h@2x.png */,
+				44634B4D2180B43400046389 /* LetMuGO */,
+				44634B4C2180B43400046389 /* Products */,
+				446E0452218475F10061948A /* Frameworks */,
+				5CDF63670009C3866593A074 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		44634B4C2180B43400046389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44634B4B2180B43400046389 /* LetMuGO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44634B4D2180B43400046389 /* LetMuGO */ = {
+			isa = PBXGroup;
+			children = (
+				4462D9FB2181FB0000ADAD76 /* LetMuGO.entitlements */,
+				44634B4E2180B43400046389 /* AppDelegate.swift */,
+				44634B502180B43400046389 /* ViewController.swift */,
+				44634B522180B43400046389 /* Main.storyboard */,
+				44634B8A2180CF9600046389 /* toneViewController.swift */,
+				44634B552180B43600046389 /* Assets.xcassets */,
+				44634B572180B43600046389 /* LaunchScreen.storyboard */,
+				4437572F2186B4FF001EABCE /* IMG_2680.png */,
+				44634B812180B56E00046389 /* tone */,
+			);
+			path = LetMuGO;
+			sourceTree = "<group>";
+		};
+		44634B812180B56E00046389 /* tone */ = {
+			isa = PBXGroup;
+			children = (
+				44634B742180B52700046389 /* pianoA.wav */,
+				44634B722180B52700046389 /* pianoB.wav */,
+				44634B7E2180B54600046389 /* pianoC.wav */,
+				44634B732180B52700046389 /* pianoC2.wav */,
+				44634B752180B52700046389 /* pianoD.wav */,
+				44634B712180B52700046389 /* pianoE.wav */,
+				44634B702180B52700046389 /* pianoF.wav */,
+				44634B762180B52700046389 /* pianoG.wav */,
+				44634B822180B61900046389 /* Mozart1.wav */,
+				44634B842180B62900046389 /* guitar.wav */,
+			);
+			path = tone;
+			sourceTree = "<group>";
+		};
+		446E0452218475F10061948A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4423454A2189A083006308E5 /* Pods_LetMuGO.framework */,
+				446E0453218475F10061948A /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CDF63670009C3866593A074 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE7680BE4A9E3EDFF2DB1EEF /* Pods-LetMuGO.debug.xcconfig */,
+				79C7B2129C1DB64176FD3DFE /* Pods-LetMuGO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44634B4A2180B43400046389 /* LetMuGO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44634B5D2180B43600046389 /* Build configuration list for PBXNativeTarget "LetMuGO" */;
+			buildPhases = (
+				F14DAEA7E412F2D8B04567F0 /* [CP] Check Pods Manifest.lock */,
+				44634B472180B43400046389 /* Sources */,
+				44634B482180B43400046389 /* Frameworks */,
+				44634B492180B43400046389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetMuGO;
+			productName = LetMuGO;
+			productReference = 44634B4B2180B43400046389 /* LetMuGO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44634B432180B43400046389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = ImProve;
+				TargetAttributes = {
+					44634B4A2180B43400046389 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 44634B462180B43400046389 /* Build configuration list for PBXProject "LetMuGO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 44634B422180B43400046389;
+			productRefGroup = 44634B4C2180B43400046389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44634B4A2180B43400046389 /* LetMuGO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44634B492180B43400046389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44634B7D2180B52700046389 /* pianoG.wav in Resources */,
+				44634B852180B62900046389 /* guitar.wav in Resources */,
+				44634B832180B61900046389 /* Mozart1.wav in Resources */,
+				44634B782180B52700046389 /* pianoE.wav in Resources */,
+				44634B592180B43600046389 /* LaunchScreen.storyboard in Resources */,
+				44634B562180B43600046389 /* Assets.xcassets in Resources */,
+				44634B542180B43400046389 /* Main.storyboard in Resources */,
+				44634B772180B52700046389 /* pianoF.wav in Resources */,
+				44634B792180B52700046389 /* pianoB.wav in Resources */,
+				4437572D2186B4FF001EABCE /* IMG_2680.png in Resources */,
+				44634B7C2180B52700046389 /* pianoD.wav in Resources */,
+				44634B7B2180B52700046389 /* pianoA.wav in Resources */,
+				4437573F2186BC6C001EABCE /* Default-568h@2x.png in Resources */,
+				44634B7F2180B54600046389 /* pianoC.wav in Resources */,
+				44634B7A2180B52700046389 /* pianoC2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F14DAEA7E412F2D8B04567F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetMuGO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44634B472180B43400046389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44634B512180B43400046389 /* ViewController.swift in Sources */,
+				44634B4F2180B43400046389 /* AppDelegate.swift in Sources */,
+				44634B8B2180CF9600046389 /* toneViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4437572F2186B4FF001EABCE /* IMG_2680.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4437572E2186B4FF001EABCE /* en */,
+			);
+			name = IMG_2680.png;
+			sourceTree = "<group>";
+		};
+		44634B522180B43400046389 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44634B532180B43400046389 /* Base */,
+				44A3C7112186C9C3000239E7 /* en */,
+				44A3C7132186CA1C000239E7 /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44634B572180B43600046389 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44634B582180B43600046389 /* Base */,
+				44A3C7172186CB2C000239E7 /* en */,
+				44A3C7182186CB30000239E7 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44634B5B2180B43600046389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44634B5C2180B43600046389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44634B5E2180B43600046389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7680BE4A9E3EDFF2DB1EEF /* Pods-LetMuGO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LetMuGO/LetMuGO.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR23AS49M5;
+				INFOPLIST_FILE = LetMuGO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImProve.LetMuGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		44634B5F2180B43600046389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C7B2129C1DB64176FD3DFE /* Pods-LetMuGO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LetMuGO/LetMuGO.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR23AS49M5;
+				INFOPLIST_FILE = LetMuGO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ImProve.LetMuGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44634B462180B43400046389 /* Build configuration list for PBXProject "LetMuGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44634B5B2180B43600046389 /* Debug */,
+				44634B5C2180B43600046389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44634B5D2180B43600046389 /* Build configuration list for PBXNativeTarget "LetMuGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44634B5E2180B43600046389 /* Debug */,
+				44634B5F2180B43600046389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44634B432180B43400046389 /* Project object */;
+}
